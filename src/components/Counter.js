@@ -1,4 +1,5 @@
-import React, {PropTypes} from 'react';
+import React from 'react';
+import PropTypes from 'prop-types';
 
 const Counter = props => {
  return (
@@ -20,7 +21,7 @@ const Counter = props => {
 
 Counter.propTypes = {
   updatePlayerScore: PropTypes.func.isRequired,
-  index: PropTypes.numbeer.isRequired,
+  index: PropTypes.number.isRequired,
   score: PropTypes.number.isRequired,
 };
 
